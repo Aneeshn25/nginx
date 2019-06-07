@@ -1,5 +1,5 @@
 #!/bin/sh
 cd /var/www/
-git pull
+git pull https://github.com/Aneeshn25/nginx.git
 mv /nginx/index.html /html/index.html
 exit
