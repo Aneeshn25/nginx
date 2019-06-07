@@ -1,0 +1,5 @@
+-#!/bin/sh
+cd /var/www/
+git pull
+mv /nginx/index.html /html/index.html
+exit
