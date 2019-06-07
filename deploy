@@ -1,5 +1,6 @@
 #!/bin/sh
 cd /var/www/
 git clone https://github.com/Aneeshn25/nginx.git
+rm -Rf nginx
 mv nginx/index.html html/index.html
 exit
